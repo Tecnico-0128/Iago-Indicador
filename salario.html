@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+    <title>Salario</title>
+</head>
+<body>
+    <div class="topo">
+        <h1>🛒Mercado da Ousadia e Alegria🛒</h1>
+    </div>
+    <div class="menu">
+        --<a href="cadastro.html" class="ativo">Funcionarios</a>--
+        <a href="salario.html">Salario</a>--
+        <a href="demissao.html">Demissao</a>--
+        <a href="lista.html">Lista</a>--
+    </div>
+    <div class="principal">
+        <div class="formulario-editar">
+            <h2>Editar funcionarios</h2>      
+                <label>CPF:</label><br>
+                <input id="cpf2" type="text"><br><br>
+                <label>Salario novo:</label><br>
+                <input id="salario2" type="number"><br><br>
+                <button id="buscar" onclick="buscarsalario()">Buscar Funcionario</button>
+                <button id="editar" onclick="editar()">Editar Salario</button>
+        </div>
+</body>
+</html>
